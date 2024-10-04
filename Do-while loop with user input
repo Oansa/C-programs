@@ -1,0 +1,35 @@
+/*
+Author: KAMANDE MUIRURI
+REG No: CT101/G/23908/24
+DO WHILE LOOPS
+*/
+
+
+
+
+
+#include <stdio.h>
+
+int sum = 0, start, stop;  
+
+int main() {
+	
+	//user input
+	printf("Enter the start value: ");
+	scanf("%d", &start);
+	
+	printf("Enter the stop value: ");
+	scanf("%d", &stop);
+    
+	// The do while loop
+    do {
+        printf("%d\n", start);  
+        sum += start;  
+        start++; 
+    } while (start <= stop);
+    
+    // Output the total sum after the loop
+    printf("Sum = %d\n", sum);
+
+    return 0;
+}
