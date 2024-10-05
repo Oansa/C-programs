@@ -1,0 +1,23 @@
+/*
+AUTHOR: KAMANDE MUIRURI
+REG NO: CT101/G/23908/24
+DATE: 4-10-2024
+For loops
+*/
+
+#include <stdio.h>
+#include <math.h>
+//Variable declaration
+    int i, sum=0, s;
+//for loop
+int main() { 
+    for(i=30;i<=30 &&i>=1;i--){
+        s = pow(i,2);
+        printf("%d\n", s);
+        sum = sum + i;
+       
+    }
+    printf("Sum is: %d", sum);
+    
+    return 0;
+}
