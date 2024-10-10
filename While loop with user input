@@ -1,0 +1,32 @@
+/*
+AUTHOR: KAMANDE MUIRURI
+REG NO: CT101/G/23908/24
+DATE: 4-10-2024
+While loop
+*/
+
+#include <stdio.h>
+#include <math.h>
+
+//Variable declaration
+    int sum=0, s, start, stop;
+    //While loop
+int main() {
+    //user input
+    printf("Enter when to start countdown:");
+    scanf("%d", &start);
+    printf("Enter when to stop coutdown:");
+    scanf("%d", &stop);
+    
+    //Start loop
+    while(start>=stop){
+        s = pow(start,2);
+        printf("%d\n", s);
+        start--;
+		sum = sum + s;
+       
+    }
+    printf("Sum of squares is: %d", sum);
+    
+    return 0;
+}
