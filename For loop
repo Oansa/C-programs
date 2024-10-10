@@ -8,10 +8,16 @@ For loops
 #include <stdio.h>
 #include <math.h>
 //Variable declaration
-    int i, sum=0, s;
-//for loop
 int main() { 
-    for(i=30;i<=30 &&i>=1;i--){
+    int i, sum=0, s, start, stop;
+//Inputs
+printf("Enter when to start countdown:");
+scanf("%d", &start);
+printf("Enter when to stop countdown:");
+scanf("%d", &stop);
+//for loop
+ 
+    for(i=start;i>=stop;i--){
         s = pow(i,2);
         printf("%d\n", s);
         sum = sum + i;
